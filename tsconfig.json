@@ -2,6 +2,7 @@
   "compilerOptions": {
     "preserveConstEnums": true,
     "target": "ES6",
+    "lib": ["es2015", "es2016", "es2017", "es2018"],
     "sourceMap": false,
     "inlineSourceMap": true
   },
