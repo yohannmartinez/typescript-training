@@ -1,6 +1,6 @@
 describe('class', () => {
 
-  it('has a constructor for initialization', () => {
+  xit('has a constructor for initialization', () => {
     // Create a Musician class
     // Add a constructor that takes one param, the instrument.
     // Set this.instrument to the instrument passed in

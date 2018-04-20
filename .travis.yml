@@ -1,5 +1,10 @@
 language: node_js
 node_js:
   - "9.8.0"
+sudo: required
 script:
+  - ./exclude.sh
   - yarn test -- --single-run
+
+addons:
+  chrome: stable
