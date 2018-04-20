@@ -1,4 +1,4 @@
-module.exports = function(config) {
+module.exports = function (config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
@@ -28,6 +28,10 @@ module.exports = function(config) {
 
     // list of files to exclude
     exclude: [
+      'src/datatypes/*.ts',
+      'src/functions/*.ts',
+      'src/params/*.ts',
+      'src/promises/*.ts',
     ],
 
     // preprocess matching files before serving them to the browser
@@ -73,15 +77,15 @@ module.exports = function(config) {
 
     // enable / disable watching file and executing tests whenever any file changes
     autoWatch: true,
-    
+
     // (!) IMPORTANT
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
     browsers: [
-      'Chrome',
+      // 'Chrome',
       'ChromeHeadless',
-      'Firefox',
-      'IE',
+      // 'Firefox',
+      // 'IE',
       // 'PhantomJS'
     ],
 
