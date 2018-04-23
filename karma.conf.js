@@ -28,8 +28,11 @@ module.exports = function (config) {
 
     // list of files to exclude
     exclude: [
+      'src/async.spec.ts',
+      'src/main/*.ts',
       'src/datatypes/*.ts',
       'src/functions/*.ts',
+      'src/functions/various/*.ts',
       'src/params/*.ts',
       'src/promises/*.ts',
     ],
