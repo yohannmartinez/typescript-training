@@ -34,6 +34,12 @@ Important thing, however, is **not to push** these temporary changes (`fit`,
 
  * see [Jasmine-Matchers](https://github.com/JamieMason/Jasmine-Matchers)
 
+## Run only group of tests
+
+* First remove `'src/main/*.ts'` from `excludes:` section in `karma.comf.ts`
+* Then add the same line in `tsconfig.json` in `include:` section
+* now run test again, you will have to resolve all main test
+
 ## progress
 
 In the beginning, most of the tests are failing:
