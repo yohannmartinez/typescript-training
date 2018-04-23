@@ -9,6 +9,7 @@
   "devDependencies": {
     "@types/jasmine": "2.8.6",
     "@types/lodash": "^4.14.104",
+    "@types/node": "^9.6.6",
     "@types/promise.prototype.finally": "2.0.2",
     "babel-core": "6.26.0",
     "babel-polyfill": "6.26.0",

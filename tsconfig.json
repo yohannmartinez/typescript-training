@@ -2,12 +2,19 @@
   "compilerOptions": {
     "preserveConstEnums": true,
     "target": "ES6",
-    "lib": ["es2015", "es2016", "es2017", "es2018"],
+    "lib": [
+      "es2015",
+      "es2016",
+      "es2017",
+      "es2018"
+    ],
     "sourceMap": false,
     "inlineSourceMap": true
   },
   "include": [
     "data/**/*.ts",
-    "src/**/*.ts"
+    "src/lib.ext.ts",
+    "src/matchers.ts",
+    "src/fake.spec.ts"
   ]
 }
