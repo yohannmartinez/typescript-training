@@ -4,7 +4,7 @@ describe('Cloning', () => {
 		// implement shallowClone operation
 		// which recreates only the top-level of a data structure
 		function shallowClone(data){
-			//...
+			return Object.assign({}, data);
 		}
 
 		it('can clone simple objects', () => {
@@ -60,7 +60,9 @@ describe('Cloning', () => {
 		// implement deepClone operation
 		// which recreates all (top and each nested) levels of a data structure
 		function deepClone(data){
-			//...
+			let datacopy = Object.assign({}, data);
+			datacopy.nested = Object.assign({}, data.nested);
+			return datacopy;
 		}
 
 		it('can clone nested objects', () => {
