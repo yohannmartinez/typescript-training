@@ -27,6 +27,9 @@ module.exports = function (config) {
 
     // list of files to exclude
     exclude: [
+      "src/params/*.ts",
+      "src/main/*.ts",
+      "src/datatypes/*.ts",
       'src/functions/*.ts',
       'src/functions/various/*.ts',
       'src/promises/*.ts',
