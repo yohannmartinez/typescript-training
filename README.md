@@ -1,5 +1,5 @@
 # typescript-training
-[![Build Status](https://travis-ci.org/yohann_martinez/typescript-training.svg?branch=exercises-step)](https://travis-ci.org/yohann_martinez/typescript-training)
+[![Build Status](https://travis-ci.org/yohannmartinez/typescript-training.svg?branch=exercises-step)](https://travis-ci.org/yohannmartinez/typescript-training)
 
 ## install
 
